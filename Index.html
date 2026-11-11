@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saffron and Silk Boutique</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, serif; background: #fdf8ee; color: #3b2f1e; line-height: 1.6; }
+    header { background: #e0a526; color: #fff; text-align: center; padding: 50px 20px; }
+    header h1 { font-size: 2.6rem; letter-spacing: 2px; }
+    header p { font-size: 1.2rem; margin-top: 10px; }
+    nav { background: #3b2f1e; text-align: center; padding: 12px; }
+    nav a { color: #fdf8ee; text-decoration: none; margin: 0 15px; }
+    section { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+    h2 { text-align: center; color: #b07d10; margin-bottom: 25px; font-size: 1.8rem; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+    .card img { width: 100%; height: 260px; object-fit: cover; background: #eadcb8; }
+    .card h3 { margin-top: 10px; }
+    .card p { padding-bottom: 15px; color: #b07d10; font-weight: bold; }
+    .contact { text-align: center; }
+    .btn { display: inline-block; padding: 14px 28px; margin: 10px; border-radius: 30px; color: #fff; text-decoration: none; font-size: 1.1rem; }
+    .whatsapp { background: #25d366; }
+    .instagram { background: #c13584; }
+    footer { background: #3b2f1e; color: #fdf8ee; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Saffron and Silk</h1>
+    <p>Elegant dresses for every occasion</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#dresses">Dresses</a>
+    <a href="#contact">Order</a>
+  </nav>
+
+  <section id="about">
+    <h2>Our Story</h2>
+    <p style="text-align:center;">Welcome to Saffron and Silk, a boutique where every dress is chosen with care. Find something beautiful for weddings, parties, festivals, or everyday elegance.</p>
+  </section>
+
+  <section id="dresses">
+    <h2>Our Dresses</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="dress1.jpg" alt="Dress 1">
+        <h3>Golden Evening Gown</h3>
+        <p>$00</p>
+      </div>
+      <div class="card">
+        <img src="dress2.jpg" alt="Dress 2">
+        <h3>Silk Festive Dress</h3>
+        <p>$00</p>
+      </div>
+      <div class="card">
+        <img src="dress3.jpg" alt="Dress 3">
+        <h3>Floral Summer Dress</h3>
+        <p>$00</p>
+      </div>
+      <div class="card">
+        <img src="dress4.jpg" alt="Dress 4">
+        <h3>Classic Party Dress</h3>
+        <p>$00</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>How to Order</h2>
+    <p>Message us with the dress you love, and we will take care of the rest.</p>
+    <a class="btn whatsapp" href="https://wa.me/YOURNUMBER">Order on WhatsApp</a>
+    <a class="btn instagram" href="https://instagram.com/YOURUSERNAME">Follow on Instagram</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Saffron and Silk Boutique. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
